@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second page</title>
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <h1>Who Are You?</h1>
+        <div class="navigation-bar">
+            <a href="firstpage.html">About Steven</a>
+            <a href="secondpage.html">Who Are You?</a>
+            <a href="thirdpage.html">Links to Me or Things I Like</a>
+            <a href="fourthpage.html">Pictures of Family and Friends</a>
+        </div>
+
+        <div>
+            <form action="/form-handling-url" method="post"></form>
+                <fieldset>
+                    <legend>Who Are You?</legend>
+                    <div class="form-items">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="FirstName" name="first_name">
+                    </div>
+
+                    <div class="form-items">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="LastName" name="last_name">
+                    </div>
+
+                    <div class="form-items">
+                        <label for="affiliation">What is your affiliation with Steven?</label>
+                        <select id="affiliation" name="affiliation_steven">
+                            <option value="parent">Parent</option>
+                            <option value="sibling">Sibling</option>
+                            <option value="pet">Pet</option>
+                            <option value="friend">Friend</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-items">
+                        <label class="site-question" for="reason">What Brings you to this site?</label>
+                        <textarea class="site-text" id="reason" name="reason"></textarea>
+                    </div>
+
+                    <div class="form-items">
+                        <label for="age">What age range are you?</label>
+                        <select id="age" name="user_age_range">
+                            <option value="early">0-20</option>
+                            <option value="early-mid">21-40</option>
+                            <option value="mid-old">41+</option>
+                        </select>
+                    </div>
+
+                    <div class="form-items">
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,134 @@
+.appacademy { /*try adding the top two in the same calss and just "space-between" */
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    border-style: solid;
+    font-weight: bold;
+    border-width: 6px;
+    padding: 40px;
+    margin-right: 92%;
+}
+
+.signin{
+    font-size: large;
+    display:flex;
+    justify-content: flex-end;
+    border-style: solid;
+    border-width: 6px;
+    padding: 40px;
+    margin-left: 89%;
+}
+
+.top_bar_links {
+    font-size: large;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 6px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-width: 4px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 12px;
+}
+
+h2 {
+    position: absolute;
+    margin-left: 25%;
+}
+
+.mid_links {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.facebook {
+    border: solid;
+    border-width: 4px;
+    margin-right: 25%;
+}
+
+.twitter {
+    border: solid;
+    border-width: 4px;
+    margin-right: 10px;
+}
+
+.share {
+    border: solid;
+    border-width:4px;
+    margin-right: 10px;
+}
+
+.main-picture {
+    height: 250px;
+    width: 1000px;
+    margin-top: 25px;
+    margin-left: 210px;
+}
+
+.para-block {
+
+}
+
+strong {
+    margin-left: 230px;
+    font-size: 25px;
+}
+
+.para {
+    display:flex;
+    justify-content: center;
+    margin-right: 20%;
+}
+
+.list-title {
+    margin-left: 100px; /*tentative to change*/
+    position: absolute;
+}
+
+.list-block {
+    border: solid;
+    height: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.list {
+
+    display: inline-block;
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 25px;
+}
+
+li {
+    padding: 6px;
+}
+
+.bottom-left {
+    position: absolute;
+    border: solid;
+    border-width: 6px;
+    height: auto;
+    width: auto;
+}
+
+.final-links {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 250px;
+}
+
+.link {
+    padding: 5px;
+}

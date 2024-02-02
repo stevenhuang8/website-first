@@ -1,0 +1,117 @@
+h1 {
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: auto;
+    display: flex;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+html {
+    background-color: tan;
+}
+
+.navigation-bar {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border: black solid;
+    border-width: 4px;
+    margin: 10px;
+}
+
+/* first page */
+
+.self-portrait {
+    height: 600px;
+    width: 450px;
+    position: absolute;
+}
+
+.paragraphs {
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    margin-left: 475px;
+}
+
+/* second page */
+fieldset {
+    border: solid;
+    border-width: 4px;
+}
+.form-items {
+    padding: 10px;
+}
+
+.site-question, .site-text {
+    display: flex;
+    align-items: flex-start;
+}
+
+.site-text {
+    height: 100px;
+    width: 350px;
+}
+
+.site-question {
+    padding-bottom: 5px;
+}
+
+/* third page */
+.first-row-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.second-row-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.youtubepics {
+    width: 225px;
+    height: 225px;
+}
+
+.third-page-title {
+    margin: 25px;
+}
+
+/* fourth page */
+.fourth-pg-images {
+    width: 300x;
+    height: 300px;
+    border: black solid 5px;
+}
+
+.first-row-labels {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row-labels {
+    display:flex;
+    margin-left: 10px;
+
+}
+
+.first-row-images {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-row-images {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

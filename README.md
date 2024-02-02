@@ -1,2 +1,2 @@
-# website-first
-First website with 4 html pages and a style sheet 
+# first-website
+First website with four pages using css and html to create it.
